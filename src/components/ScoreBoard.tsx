@@ -9,6 +9,7 @@ interface ScoreBoardProps {
   };
 }
 
+
 const ScoreBoard: React.FC<ScoreBoardProps> = ({ scores }) => {
   return (
     <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
